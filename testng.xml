@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Test Suite">
+
+  <test name="Mod1">
+  <groups>
+ <!--   <run>
+  	<include name="Reg"/>
+  </run>-->
+  </groups>
+    <classes>
+      <class name="Bank.Bank1"/>
+      <class name="Bank.Bank4"/>
+    </classes>
+    
+  </test> 
+
+  
+  <test name="Mod2">
+    <classes>
+      <class name="Bank.Bank2"/>
+      <class name="Bank.Bank3"/>
+    </classes>
+  </test>
+  
+   
+</suite> <!-- Suite -->

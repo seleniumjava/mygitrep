@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Test Suite]">
+  <test name="Mod1(failed)">
+    <classes>
+      <class name="Bank.Bank1">
+        <methods>
+          <include name="Login"/>
+          <include name="OpenSel"/>
+          <include name="CloseBrowser"/>
+          <include name="StdGen"/>
+          <include name="openBrowser"/>
+          <include name="ApplyCC"/>
+          <include name="DisconnectDB"/>
+          <include name="CloseSel"/>
+          <include name="MoneyTransfer"/>
+          <include name="BillPayment"/>
+          <include name="connectDB"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- Bank.Bank1 -->
+      <class name="Bank.Bank2">
+        <methods>
+          <include name="OpenSel"/>
+          <include name="CloseSel"/>
+          <include name="xyz"/>
+        </methods>
+      </class> <!-- Bank.Bank2 -->
+    </classes>
+  </test> <!-- Mod1(failed) -->
+  <test name="Mod2(failed)">
+    <classes>
+      <class name="Bank.Bank1">
+        <methods>
+          <include name="Login"/>
+          <include name="OpenSel"/>
+          <include name="CloseBrowser"/>
+          <include name="openBrowser"/>
+          <include name="DisconnectDB"/>
+          <include name="CloseSel"/>
+          <include name="connectDB"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- Bank.Bank1 -->
+      <class name="Bank.Bank2">
+        <methods>
+          <include name="OpenSel"/>
+          <include name="CloseSel"/>
+          <include name="ApplyPL"/>
+          <include name="xyz"/>
+          <include name="ApplyHL"/>
+        </methods>
+      </class> <!-- Bank.Bank2 -->
+    </classes>
+  </test> <!-- Mod2(failed) -->
+</suite> <!-- Failed suite [My Test Suite] -->

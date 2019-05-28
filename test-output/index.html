@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-My_Test_Suite">
+              <span class="suite-name border-failed">My Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-My_Test_Suite">
+                    <span>D:\Selenium-Project\Abhishek_Project\Jenkins_Git\localgitrep\HDFCBank\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-My_Test_Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-My_Test_Suite">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-My_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-My_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-My_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-My_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 5 failed,  1 skipped,  6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-My_Test_Suite" class="hide-methods failed suite-My_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-My_Test_Suite -->
+                      <a href="#" panel-name="suite-My_Test_Suite" class="show-methods failed suite-My_Test_Suite"> (show)</a> <!-- show-methods failed suite-My_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-My_Test_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_Test_Suite" title="Bank.Bank2" hash-for-method="ApplyHL">ApplyHL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_Test_Suite" title="Bank.Bank2" hash-for-method="ApplyPL">ApplyPL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_Test_Suite" title="Bank.Bank1" hash-for-method="BillPayment">BillPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_Test_Suite" title="Bank.Bank1" hash-for-method="MoneyTransfer">MoneyTransfer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_Test_Suite" title="Bank.Bank1" hash-for-method="StdGen">StdGen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-My_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-My_Test_Suite" class="hide-methods skipped suite-My_Test_Suite"> (hide)</a> <!-- hide-methods skipped suite-My_Test_Suite -->
+                      <a href="#" panel-name="suite-My_Test_Suite" class="show-methods skipped suite-My_Test_Suite"> (show)</a> <!-- show-methods skipped suite-My_Test_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-My_Test_Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_Test_Suite" title="Bank.Bank1" hash-for-method="ApplyCC">ApplyCC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-My_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-My_Test_Suite" class="hide-methods passed suite-My_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-My_Test_Suite -->
+                      <a href="#" panel-name="suite-My_Test_Suite" class="show-methods passed suite-My_Test_Suite"> (show)</a> <!-- show-methods passed suite-My_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-My_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_Test_Suite" title="Bank.Bank4" hash-for-method="ITReturn">ITReturn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_Test_Suite" title="Bank.Bank4" hash-for-method="PayTax">PayTax</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_Test_Suite" title="Bank.Bank3" hash-for-method="login(u1, p1)">login(u1, p1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_Test_Suite" title="Bank.Bank3" hash-for-method="login(u2, p2)">login(u2, p2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_Test_Suite" title="Bank.Bank3" hash-for-method="product(data11, data12, data13)">product(data11, data12, data13)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_Test_Suite" title="Bank.Bank3" hash-for-method="product(data21, data22, data23)">product(data21, data22, data23)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-My_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-My_Test_Suite" class="panel My_Test_Suite">
+          <div class="suite-My_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Bank.Bank1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillPayment">
+                  </a> <!-- BillPayment -->
+                  <span class="method-name">BillPayment</span>
+                  <div class="stack-trace">java.io.FileNotFoundException: D:\Selenium-Project\Abhishek_Project\Jenkins_Git\localgitrep\HDFCBank\ReportOP\TestHtmlReport.html (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:213)
+	at java.io.FileWriter.&lt;init&gt;(FileWriter.java:107)
+	at Bank.Report.updateResult(Report.java:28)
+	at Bank.Bank1.BillPayment(Bank1.java:51)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MoneyTransfer">
+                  </a> <!-- MoneyTransfer -->
+                  <span class="method-name">MoneyTransfer</span>
+                  <div class="stack-trace">java.io.FileNotFoundException: D:\Selenium-Project\Abhishek_Project\Jenkins_Git\localgitrep\HDFCBank\ReportOP\TestHtmlReport.html (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:213)
+	at java.io.FileWriter.&lt;init&gt;(FileWriter.java:107)
+	at Bank.Report.updateResult(Report.java:28)
+	at Bank.Bank1.MoneyTransfer(Bank1.java:24)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="StdGen">
+                  </a> <!-- StdGen -->
+                  <span class="method-name">StdGen</span>
+                  <div class="stack-trace">java.io.FileNotFoundException: D:\Selenium-Project\Abhishek_Project\Jenkins_Git\localgitrep\HDFCBank\ReportOP\TestHtmlReport.html (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:213)
+	at java.io.FileWriter.&lt;init&gt;(FileWriter.java:107)
+	at Bank.Report.updateResult(Report.java:28)
+	at Bank.Bank1.StdGen(Bank1.java:38)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-My_Test_Suite-class-failed -->
+          <div class="suite-My_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Bank.Bank2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ApplyHL">
+                  </a> <!-- ApplyHL -->
+                  <span class="method-name">ApplyHL</span>
+                  <div class="stack-trace">java.io.FileNotFoundException: D:\Selenium-Project\Abhishek_Project\Jenkins_Git\localgitrep\HDFCBank\ReportOP\TestHtmlReport.html (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:213)
+	at java.io.FileWriter.&lt;init&gt;(FileWriter.java:107)
+	at Bank.Report.updateResult(Report.java:28)
+	at Bank.Bank2.ApplyHL(Bank2.java:34)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ApplyPL">
+                  </a> <!-- ApplyPL -->
+                  <span class="method-name">ApplyPL</span>
+                  <div class="stack-trace">java.io.FileNotFoundException: D:\Selenium-Project\Abhishek_Project\Jenkins_Git\localgitrep\HDFCBank\ReportOP\TestHtmlReport.html (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:213)
+	at java.io.FileWriter.&lt;init&gt;(FileWriter.java:107)
+	at Bank.Report.updateResult(Report.java:28)
+	at Bank.Bank2.ApplyPL(Bank2.java:45)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-My_Test_Suite-class-failed -->
+          <div class="suite-My_Test_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Bank.Bank1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ApplyCC">
+                  </a> <!-- ApplyCC -->
+                  <span class="method-name">ApplyCC</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-My_Test_Suite-class-skipped -->
+          <div class="suite-My_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Bank.Bank3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(u1, p1)">
+                  </a> <!-- login(u1, p1) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(u1, p1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(u2, p2)">
+                  </a> <!-- login(u2, p2) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(u2, p2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="product(data11, data12, data13)">
+                  </a> <!-- product(data11, data12, data13) -->
+                  <span class="method-name">product</span>
+                  <span class="parameters">(data11, data12, data13)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="product(data21, data22, data23)">
+                  </a> <!-- product(data21, data22, data23) -->
+                  <span class="method-name">product</span>
+                  <span class="parameters">(data21, data22, data23)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-My_Test_Suite-class-passed -->
+          <div class="suite-My_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Bank.Bank4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ITReturn">
+                  </a> <!-- ITReturn -->
+                  <span class="method-name">ITReturn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PayTax">
+                  </a> <!-- PayTax -->
+                  <span class="method-name">PayTax</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-My_Test_Suite-class-passed -->
+        </div> <!-- panel My_Test_Suite -->
+        <div panel-name="test-xml-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Selenium-Project\Abhishek_Project\Jenkins_Git\localgitrep\HDFCBank\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;My Test Suite&quot;&gt;
+  &lt;test name=&quot;Mod1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Bank.Bank1&quot;/&gt;
+      &lt;class name=&quot;Bank.Bank4&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Mod1 --&gt;
+  &lt;test name=&quot;Mod2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Bank.Bank2&quot;/&gt;
+      &lt;class name=&quot;Bank.Bank3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Mod2 --&gt;
+&lt;/suite&gt; &lt;!-- My Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for My Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Mod1 (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Mod2 (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for My Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Acceptance</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">ApplyCC</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">BillPayment</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Reg</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">ApplyCC</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">MoneyTransfer</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">StdGen</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for My Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_My_Test_Suite');
+function tableData_My_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'MoneyTransfer')
+data.setCell(0, 2, 'Bank.Bank1')
+data.setCell(0, 3, 37);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'PayTax')
+data.setCell(1, 2, 'Bank.Bank4')
+data.setCell(1, 3, 5);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'BillPayment')
+data.setCell(2, 2, 'Bank.Bank1')
+data.setCell(2, 3, 2);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ApplyHL')
+data.setCell(3, 2, 'Bank.Bank2')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ITReturn')
+data.setCell(4, 2, 'Bank.Bank4')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'StdGen')
+data.setCell(5, 2, 'Bank.Bank1')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ApplyCC')
+data.setCell(6, 2, 'Bank.Bank1')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'login')
+data.setCell(7, 2, 'Bank.Bank3')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ApplyPL')
+data.setCell(8, 2, 'Bank.Bank2')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'product')
+data.setCell(9, 2, 'Bank.Bank3')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'login')
+data.setCell(10, 2, 'Bank.Bank3')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'product')
+data.setCell(11, 2, 'Bank.Bank3')
+data.setCell(11, 3, 0);
+window.suiteTableData['My_Test_Suite']= { tableData: data, tableDiv: 'times-div-My_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 51 ms</span>
+              <div id="times-div-My_Test_Suite">
+              </div> <!-- times-div-My_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for My Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-My_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Bank.Bank1</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">OpenSel</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Bank.Bank2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">OpenSel</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Bank.Bank1</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">connectDB</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">Login</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MoneyTransfer</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">56 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Login</span>
+                <span class="method-start">57 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">BillPayment</span>
+                <span class="method-start">57 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">59 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Login</span>
+                <span class="method-start">59 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">StdGen</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">61 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">64 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Bank.Bank4</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ITReturn</span>
+                <span class="method-start">65 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PayTax</span>
+                <span class="method-start">66 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Bank.Bank1</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">DisconnectDB</span>
+                <span class="method-start">71 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Bank.Bank2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">xyz</span>
+                <span class="method-start">145 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ApplyHL</span>
+                <span class="method-start">145 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">xyz</span>
+                <span class="method-start">147 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ApplyPL</span>
+                <span class="method-start">147 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Bank.Bank3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">login(u1, p1)</span>
+                <span class="method-start">150 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(u2, p2)</span>
+                <span class="method-start">151 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">product(data11, data12, data13)</span>
+                <span class="method-start">151 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">product(data21, data22, data23)</span>
+                <span class="method-start">151 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Bank.Bank1</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">CloseSel</span>
+                <span class="method-start">164 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Bank.Bank2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">CloseSel</span>
+                <span class="method-start">164 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
