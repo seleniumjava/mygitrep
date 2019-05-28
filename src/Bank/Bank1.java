@@ -73,7 +73,7 @@ public class Bank1 extends Report{
 	
 	@AfterMethod
 	public void Logout(){
-		System.out.println("AfterMethod--------------------");
+		System.out.println("AfterMethod..............");
 	}
 	
 	@BeforeClass
