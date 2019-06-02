@@ -2,7 +2,7 @@
 <testng-results skipped="1" failed="5" total="12" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="My Test Suite" duration-ms="139" started-at="2019-05-27T17:53:59Z" finished-at="2019-05-27T17:54:00Z">
+  <suite name="My Test Suite" duration-ms="241" started-at="2019-05-28T16:47:14Z" finished-at="2019-05-28T16:47:14Z">
     <groups>
       <group name="Acceptance">
         <method signature="Bank1.BillPayment()[pri:0, instance:Bank.Bank1@43a25848]" name="BillPayment" class="Bank.Bank1"/>
@@ -14,21 +14,21 @@
         <method signature="Bank1.MoneyTransfer()[pri:0, instance:Bank.Bank1@43a25848]" name="MoneyTransfer" class="Bank.Bank1"/>
       </group> <!-- Reg -->
     </groups>
-    <test name="Mod1" duration-ms="59" started-at="2019-05-27T17:53:59Z" finished-at="2019-05-27T17:53:59Z">
+    <test name="Mod1" duration-ms="85" started-at="2019-05-28T16:47:14Z" finished-at="2019-05-28T16:47:14Z">
       <class name="Bank.Bank1">
-        <test-method status="PASS" signature="connectDB()[pri:0, instance:Bank.Bank1@43a25848]" name="connectDB" is-config="true" duration-ms="0" started-at="2019-05-27T23:23:59Z" finished-at="2019-05-27T23:23:59Z">
+        <test-method status="PASS" signature="connectDB()[pri:0, instance:Bank.Bank1@43a25848]" name="connectDB" is-config="true" duration-ms="0" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectDB -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Bank.Bank1@43a25848]" name="openBrowser" is-config="true" duration-ms="0" started-at="2019-05-27T23:23:59Z" finished-at="2019-05-27T23:23:59Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Bank.Bank1@43a25848]" name="openBrowser" is-config="true" duration-ms="1" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:Bank.Bank1@43a25848]" name="Login" is-config="true" duration-ms="0" started-at="2019-05-27T23:23:59Z" finished-at="2019-05-27T23:23:59Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:Bank.Bank1@43a25848]" name="Login" is-config="true" duration-ms="0" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="FAIL" signature="MoneyTransfer()[pri:0, instance:Bank.Bank1@43a25848]" name="MoneyTransfer" duration-ms="37" started-at="2019-05-27T23:23:59Z" finished-at="2019-05-27T23:23:59Z">
+        <test-method status="FAIL" signature="MoneyTransfer()[pri:0, instance:Bank.Bank1@43a25848]" name="MoneyTransfer" duration-ms="46" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
           <exception class="java.io.FileNotFoundException">
             <message>
               <![CDATA[D:\Selenium-Project\Abhishek_Project\Jenkins_Git\localgitrep\HDFCBank\ReportOP\TestHtmlReport.html (The system cannot find the path specified)]]>
@@ -70,11 +70,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MoneyTransfer -->
-        <test-method status="PASS" signature="Logout()[pri:0, instance:Bank.Bank1@43a25848]" name="Logout" is-config="true" duration-ms="0" started-at="2019-05-27T23:23:59Z" finished-at="2019-05-27T23:23:59Z">
+        <test-method status="PASS" signature="Logout()[pri:0, instance:Bank.Bank1@43a25848]" name="Logout" is-config="true" duration-ms="1" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method status="FAIL" signature="BillPayment()[pri:0, instance:Bank.Bank1@43a25848]" name="BillPayment" duration-ms="2" started-at="2019-05-27T23:23:59Z" finished-at="2019-05-27T23:23:59Z">
+        <test-method status="FAIL" signature="BillPayment()[pri:0, instance:Bank.Bank1@43a25848]" name="BillPayment" duration-ms="3" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
           <exception class="java.io.FileNotFoundException">
             <message>
               <![CDATA[D:\Selenium-Project\Abhishek_Project\Jenkins_Git\localgitrep\HDFCBank\ReportOP\TestHtmlReport.html (The system cannot find the path specified)]]>
@@ -116,19 +116,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BillPayment -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:Bank.Bank1@43a25848]" name="Login" is-config="true" duration-ms="0" started-at="2019-05-27T23:23:59Z" finished-at="2019-05-27T23:23:59Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:Bank.Bank1@43a25848]" name="Login" is-config="true" duration-ms="0" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="Logout()[pri:0, instance:Bank.Bank1@43a25848]" name="Logout" is-config="true" duration-ms="0" started-at="2019-05-27T23:23:59Z" finished-at="2019-05-27T23:23:59Z">
+        <test-method status="PASS" signature="Logout()[pri:0, instance:Bank.Bank1@43a25848]" name="Logout" is-config="true" duration-ms="1" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:Bank.Bank1@43a25848]" name="Login" is-config="true" duration-ms="1" started-at="2019-05-27T23:23:59Z" finished-at="2019-05-27T23:23:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="FAIL" signature="StdGen()[pri:0, instance:Bank.Bank1@43a25848]" name="StdGen" duration-ms="1" started-at="2019-05-27T23:23:59Z" finished-at="2019-05-27T23:23:59Z">
+        <test-method status="FAIL" signature="StdGen()[pri:0, instance:Bank.Bank1@43a25848]" name="StdGen" duration-ms="3" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
           <exception class="java.io.FileNotFoundException">
             <message>
               <![CDATA[D:\Selenium-Project\Abhishek_Project\Jenkins_Git\localgitrep\HDFCBank\ReportOP\TestHtmlReport.html (The system cannot find the path specified)]]>
@@ -170,59 +166,63 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StdGen -->
-        <test-method status="PASS" signature="Logout()[pri:0, instance:Bank.Bank1@43a25848]" name="Logout" is-config="true" duration-ms="0" started-at="2019-05-27T23:23:59Z" finished-at="2019-05-27T23:23:59Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:Bank.Bank1@43a25848]" name="Login" is-config="true" duration-ms="0" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:Bank.Bank1@43a25848]" name="Logout" is-config="true" duration-ms="2" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method status="SKIP" signature="ApplyCC()[pri:0, instance:Bank.Bank1@43a25848]" name="ApplyCC" duration-ms="1" started-at="2019-05-27T23:23:59Z" depends-on-methods="Bank.Bank1.BillPayment" finished-at="2019-05-27T23:23:59Z">
+        <test-method status="SKIP" signature="ApplyCC()[pri:0, instance:Bank.Bank1@43a25848]" name="ApplyCC" duration-ms="3" started-at="2019-05-28T22:17:14Z" depends-on-methods="Bank.Bank1.BillPayment" finished-at="2019-05-28T22:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ApplyCC -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:Bank.Bank1@43a25848]" name="CloseBrowser" is-config="true" duration-ms="1" started-at="2019-05-27T23:23:59Z" finished-at="2019-05-27T23:23:59Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:Bank.Bank1@43a25848]" name="CloseBrowser" is-config="true" duration-ms="0" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method status="PASS" signature="DisconnectDB()[pri:0, instance:Bank.Bank1@43a25848]" name="DisconnectDB" is-config="true" duration-ms="0" started-at="2019-05-27T23:23:59Z" finished-at="2019-05-27T23:23:59Z">
+        <test-method status="PASS" signature="DisconnectDB()[pri:0, instance:Bank.Bank1@43a25848]" name="DisconnectDB" is-config="true" duration-ms="0" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DisconnectDB -->
       </class> <!-- Bank.Bank1 -->
       <class name="Bank.Bank4">
-        <test-method status="PASS" signature="ITReturn()[pri:0, instance:Bank.Bank4@e580929]" name="ITReturn" duration-ms="1" started-at="2019-05-27T23:23:59Z" finished-at="2019-05-27T23:23:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ITReturn -->
-        <test-method status="PASS" signature="PayTax()[pri:0, instance:Bank.Bank4@e580929]" name="PayTax" duration-ms="5" started-at="2019-05-27T23:23:59Z" finished-at="2019-05-27T23:23:59Z">
+        <test-method status="PASS" signature="PayTax()[pri:0, instance:Bank.Bank4@e580929]" name="PayTax" duration-ms="5" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PayTax -->
+        <test-method status="PASS" signature="ITReturn()[pri:0, instance:Bank.Bank4@e580929]" name="ITReturn" duration-ms="0" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ITReturn -->
       </class> <!-- Bank.Bank4 -->
     </test> <!-- Mod1 -->
-    <test name="Mod2" duration-ms="7" started-at="2019-05-27T17:54:00Z" finished-at="2019-05-27T17:54:00Z">
+    <test name="Mod2" duration-ms="20" started-at="2019-05-28T16:47:14Z" finished-at="2019-05-28T16:47:14Z">
       <class name="Bank.Bank1">
-        <test-method status="PASS" signature="OpenSel()[pri:0, instance:Bank.Bank1@43a25848]" name="OpenSel" is-config="true" duration-ms="11" started-at="2019-05-27T23:23:59Z" finished-at="2019-05-27T23:23:59Z">
+        <test-method status="PASS" signature="OpenSel()[pri:0, instance:Bank.Bank1@43a25848]" name="OpenSel" is-config="true" duration-ms="17" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenSel -->
-        <test-method status="PASS" signature="OpenSel()[pri:0, instance:Bank.Bank2@60f82f98]" name="OpenSel" is-config="true" duration-ms="0" started-at="2019-05-27T23:23:59Z" finished-at="2019-05-27T23:23:59Z">
+        <test-method status="PASS" signature="OpenSel()[pri:0, instance:Bank.Bank2@60f82f98]" name="OpenSel" is-config="true" duration-ms="0" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenSel -->
-        <test-method status="PASS" signature="CloseSel()[pri:0, instance:Bank.Bank1@43a25848]" name="CloseSel" is-config="true" duration-ms="0" started-at="2019-05-27T23:24:00Z" finished-at="2019-05-27T23:24:00Z">
+        <test-method status="PASS" signature="CloseSel()[pri:0, instance:Bank.Bank1@43a25848]" name="CloseSel" is-config="true" duration-ms="1" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseSel -->
-        <test-method status="PASS" signature="CloseSel()[pri:0, instance:Bank.Bank2@60f82f98]" name="CloseSel" is-config="true" duration-ms="0" started-at="2019-05-27T23:24:00Z" finished-at="2019-05-27T23:24:00Z">
+        <test-method status="PASS" signature="CloseSel()[pri:0, instance:Bank.Bank2@60f82f98]" name="CloseSel" is-config="true" duration-ms="0" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseSel -->
       </class> <!-- Bank.Bank1 -->
       <class name="Bank.Bank2">
-        <test-method status="PASS" signature="xyz()[pri:0, instance:Bank.Bank2@60f82f98]" name="xyz" is-config="true" duration-ms="0" started-at="2019-05-27T23:24:00Z" finished-at="2019-05-27T23:24:00Z">
+        <test-method status="PASS" signature="xyz()[pri:0, instance:Bank.Bank2@60f82f98]" name="xyz" is-config="true" duration-ms="0" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- xyz -->
-        <test-method status="FAIL" signature="ApplyHL()[pri:0, instance:Bank.Bank2@60f82f98]" name="ApplyHL" duration-ms="2" started-at="2019-05-27T23:24:00Z" finished-at="2019-05-27T23:24:00Z">
+        <test-method status="FAIL" signature="ApplyHL()[pri:0, instance:Bank.Bank2@60f82f98]" name="ApplyHL" duration-ms="3" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
           <exception class="java.io.FileNotFoundException">
             <message>
               <![CDATA[D:\Selenium-Project\Abhishek_Project\Jenkins_Git\localgitrep\HDFCBank\ReportOP\TestHtmlReport.html (The system cannot find the path specified)]]>
@@ -264,11 +264,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ApplyHL -->
-        <test-method status="PASS" signature="xyz()[pri:0, instance:Bank.Bank2@60f82f98]" name="xyz" is-config="true" duration-ms="0" started-at="2019-05-27T23:24:00Z" finished-at="2019-05-27T23:24:00Z">
+        <test-method status="PASS" signature="xyz()[pri:0, instance:Bank.Bank2@60f82f98]" name="xyz" is-config="true" duration-ms="2" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- xyz -->
-        <test-method status="FAIL" signature="ApplyPL()[pri:0, instance:Bank.Bank2@60f82f98]" name="ApplyPL" duration-ms="1" started-at="2019-05-27T23:24:00Z" finished-at="2019-05-27T23:24:00Z">
+        <test-method status="FAIL" signature="ApplyPL()[pri:0, instance:Bank.Bank2@60f82f98]" name="ApplyPL" duration-ms="2" started-at="2019-05-28T22:17:14Z" finished-at="2019-05-28T22:17:14Z">
           <exception class="java.io.FileNotFoundException">
             <message>
               <![CDATA[D:\Selenium-Project\Abhishek_Project\Jenkins_Git\localgitrep\HDFCBank\ReportOP\TestHtmlReport.html (The system cannot find the path specified)]]>
@@ -312,7 +312,7 @@
         </test-method> <!-- ApplyPL -->
       </class> <!-- Bank.Bank2 -->
       <class name="Bank.Bank3">
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:Bank.Bank3@6442b0a6]" name="login" duration-ms="1" started-at="2019-05-27T23:24:00Z" data-provider="uidpwd" finished-at="2019-05-27T23:24:00Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:Bank.Bank3@6442b0a6]" name="login" duration-ms="2" started-at="2019-05-28T22:17:14Z" data-provider="uidpwd" finished-at="2019-05-28T22:17:14Z">
           <params>
             <param index="0">
               <value>
@@ -328,7 +328,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="product(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Bank.Bank3@6442b0a6]" name="product" duration-ms="0" started-at="2019-05-27T23:24:00Z" data-provider="product" finished-at="2019-05-27T23:24:00Z">
+        <test-method status="PASS" signature="product(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Bank.Bank3@6442b0a6]" name="product" duration-ms="0" started-at="2019-05-28T22:17:14Z" data-provider="product" finished-at="2019-05-28T22:17:14Z">
           <params>
             <param index="0">
               <value>
@@ -349,7 +349,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- product -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:Bank.Bank3@6442b0a6]" name="login" duration-ms="0" started-at="2019-05-27T23:24:00Z" data-provider="uidpwd" finished-at="2019-05-27T23:24:00Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:Bank.Bank3@6442b0a6]" name="login" duration-ms="0" started-at="2019-05-28T22:17:14Z" data-provider="uidpwd" finished-at="2019-05-28T22:17:14Z">
           <params>
             <param index="0">
               <value>
@@ -365,7 +365,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="product(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Bank.Bank3@6442b0a6]" name="product" duration-ms="0" started-at="2019-05-27T23:24:00Z" data-provider="product" finished-at="2019-05-27T23:24:00Z">
+        <test-method status="PASS" signature="product(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Bank.Bank3@6442b0a6]" name="product" duration-ms="1" started-at="2019-05-28T22:17:14Z" data-provider="product" finished-at="2019-05-28T22:17:14Z">
           <params>
             <param index="0">
               <value>
